@@ -1,5 +1,5 @@
 main: main.c
-	$(CC) main.c -o main -Wall -Wextra -pedantic -std=c99
+	$(CC) main.c -o kilo -Wall -Wextra -pedantic -std=c99
 exe: 
-	./main
+	./kilo
 run: main exe 
